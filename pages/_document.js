@@ -8,7 +8,7 @@ export default function Document() {
         <meta property="og:description" content="Use The Complimentorrrr" key="description"/>
         <meta
           property="og:image"
-          content="https://i.imgur.com/4Z5YQ9r.png"
+          content=""
         />
         <meta name="twitter:card" content="summary_large_image"></meta>
       </Head>
