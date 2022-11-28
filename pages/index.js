@@ -52,7 +52,7 @@ const callGenerateEndpoint = async () => {
           </div>
           <div className="header-subtitle">
             <h2>
-              Hey I'm a friendly AI bot 🤖 <br /> I'm powered by GPT-3 🚀 <br />
+              Hey, I'm a friendly AI bot 🤖 <br /> Powered by GPT-3 🚀 <br />
               <br />
               Hmu with a person's name and I'll compliment them ✨ <br />I also
               like to add emojis to my compliments 🤩
