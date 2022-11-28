@@ -1,4 +1,5 @@
 import { Configuration, OpenAIApi } from 'openai';
+require('dotenv').config();
 
 const configuration = new Configuration({
   apiKey: process.env.OPENAI_API_KEY,
@@ -17,8 +18,8 @@ const generateAction = async (req, res) => {
 
   const baseCompletion = await openai.createCompletion({
     model: 'text-davinci-002',
-    prompt: `${basePromptPrefix}${req.body.userInput}\n`,
-    temperature: 0.7,
+    prompt: `${basePromptPrefix}${req.body.userInput}`,
+    temperature: 0.8,
     max_tokens: 250,
   });
   // For example, if there wasn't /n — GPT-3 would start writing directly after my title on the same line, so it might try and autocomplete my title instead of writing my actual blog post!
