@@ -1,6 +1,6 @@
 # The Complimentorrr
 
-### A friendly AI bot that compliments people by their name🤖
+### A friendly AI bot that compliments people by their name 🤖
 
 ### Prompt #1:
 
