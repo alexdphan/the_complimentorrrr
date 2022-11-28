@@ -1,8 +1,7 @@
 # The Complimentorrr
-### A friendly AI bot that compliments people🤖
 
-Give the bot a name and it will compliment the name itself
----
+### A friendly AI bot that compliments people by their name🤖
+
 ### Prompt #1:
 
 Write me a compliment on the person below. Please make sure the compliment is genuine and in-depth with detail to show that the person complimenting did their research
